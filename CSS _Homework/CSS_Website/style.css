@@ -1,0 +1,237 @@
+
+h1,
+body {
+  margin: 0;
+}
+html {
+  font-family: monospace;
+  font-size: 15px;
+  line-height: 1.5;
+  background: url("https://img.freepik.com/free-photo/old-wooden-texture-background-vintage_55716-1138.jpg?size=626&ext=jpg");
+}
+
+body {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.current {
+  color: white;
+  font-weight: bold;
+}
+
+.container {
+  width: 80%;
+
+  margin: auto;
+  overflow: hidden;
+}
+
+header {
+  background-color: black;
+  color: white;
+  min-height: 70px;
+  padding-top: 10px;
+}
+
+header a:hover {
+  color: black;
+  background-color: yellow;
+}
+
+.branding {
+  float: left;
+}
+
+.quicklink {
+  float: right;
+}
+
+.showcase {
+  text-align: center;
+  min-height: 400px;
+  background: url("https://picsum.photos/id/2/1500/500/?blur=4") no-repeat;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.showcase .container {
+  padding-top: 130px;
+  color: white;
+  text-shadow: 5px 5px 5px black;
+  text-align: left;
+}
+
+#showcase_head {
+  background-color: black;
+  width: 50%;
+  color: yellow;
+  text-align: center;
+  height: 45px;
+  padding-top: 8px;
+}
+
+ul,
+li {
+  list-style: none;
+  display: inline-block;
+  margin-left: 20px;
+}
+a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: inherit;
+}
+
+span {
+  color: yellow;
+}
+
+.newsletter {
+  padding: 15px;
+  background: black;
+  color: white;
+}
+
+.newsletter .news_inform {
+  float: left;
+}
+
+.newsletter form {
+  float: right;
+}
+
+.newsletter input[type="email"] {
+  width: 250px;
+  height: 25px;
+  padding: 4px;
+  border-radius: 4px;
+  border: none;
+}
+
+.newsletter button {
+  height: 35px;
+  background-color: yellow;
+  color: black;
+  border-radius: 4px;
+  border: none;
+  padding: 0 20px;
+}
+
+.button_1:hover {
+  background-color: white;
+}
+
+.button_1:active {
+  background-color: orange;
+  box-sizing: border-box;
+}
+
+.card img {
+  height: 150px;
+}
+
+.boxes {
+  background-color: rgba(255, 255, 255, 0.7);
+}
+.card {
+  float: left;
+  height: 500px;
+  width: 30%;
+
+  margin: 40px 15px;
+
+  text-align: justify;
+  display: inline-block;
+  text-align: center;
+}
+
+.footer .container {
+  margin: auto;
+  text-align: center;
+}
+
+.footer {
+  background: black;
+  color: white;
+}
+
+/*about*/
+
+.content {
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+.subcon_1 {
+  width: 65%;
+  float: left;
+  margin-bottom: 25px;
+}
+
+.subcon_1 p {
+  text-indent: 2.5em;
+  text-align: justify;
+}
+.content h3 {
+  font-size: 35px;
+  margin-bottom: -5px;
+}
+
+.subcon_2 {
+  width: 30%;
+  float: right;
+  background-color: yellow;
+  text-align: justify;
+  padding-left: 15px;
+  padding-right: 15px;
+  box-sizing: border-box;
+  margin-top: 80px;
+}
+
+.subcon_3 {
+  width: 30%;
+  float: right;
+  margin-bottom: 55px;
+  background-color: yellow;
+  text-align: justify;
+  padding-left: 15px;
+  padding-right: 15px;
+  box-sizing: border-box;
+  margin-top: 15px;
+}
+
+.subcon_1 img {
+  width: 100%;
+  margin-top: 10px;
+}
+
+/*Service*/
+
+.service {
+  width: 60%;
+  float: left;
+  background-color: white;
+  margin: 10px;
+  padding: 15px;
+}
+
+.ser_list {
+  margin-top: 20px;
+}
+
+.quote {
+  width: 30%;
+  float: right;
+  background-color: yellow;
+  margin-top: -600px;
+  box-sizing: border-box;
+  padding: 15px;
+}
+
+.more_info:hover {
+  background-color: yellow;
+}
+
+.list {
+  background-color: rgba(255, 255, 255, 0.7);
+}

@@ -1,0 +1,143 @@
+html {
+    font-family: sans-serif;
+    background-color: rgb(230, 230, 230);
+  }
+  
+  .container_1 {
+    height: 80vh;
+  }
+  
+  .container_2 {
+    height: 20vh;
+    background-color: white;
+    padding-top: 20px;
+  }
+  
+  .headline {
+    float: left;
+    width: 55vw;
+    margin-top: 250px;
+    padding-left: 400px;
+    box-sizing: border-box;
+  }
+  
+  .headline p {
+    font-size: 25px;
+  }
+  
+  .headline img {
+    width: 300px;
+  }
+  
+  .content {
+    float: right;
+    width: 40vw;
+    margin-top: 200px;
+    padding-right: 40px;
+    box-sizing: border-box;
+  }
+  .footer {
+    clear: both;
+  }
+  
+  /*Form*/
+  .form {
+    background-color: white;
+    box-shadow: 3px 3px 7px gray;
+    width: 300px;
+    text-align: center;
+    border-radius: 5px;
+    padding: 10px 3px 10px 3px;
+    box-sizing: border-box;
+  }
+  
+  #username {
+    margin-top: 10px;
+    border-width: 1px;
+    border-color: rgb(192, 192, 192);
+    border-style: solid;
+    padding-left: 15px;
+    width: 90%;
+    border-radius: 5px;
+    height: 25px;
+    box-sizing: border-box;
+  }
+  
+  #password {
+    margin-top: 15px;
+    box-sizing: border-box;
+    border-width: 1px;
+    padding-left: 15px;
+    border-style: solid;
+    border-color: rgb(192, 192, 192);
+    width: 90%;
+    border-radius: 5px;
+    height: 25px;
+  }
+  
+  #login_button {
+    margin-top: 15px;
+    border-width: 1px;
+    background-color: rgb(76, 76, 216);
+    font-size: 12px;
+    color: white;
+    font-weight: bold;
+    width: 90%;
+    border-radius: 5px;
+    height: 40px;
+    margin-bottom: 10px;
+  }
+  
+  #forgot_password {
+    text-decoration: none;
+    color: rgb(76, 76, 216);
+    font-size: 12px;
+  }
+  
+  #create_button {
+    margin-top: 10px;
+    border-width: 1px;
+    background-color: rgb(53, 184, 71);
+    font-size: 12px;
+    color: white;
+    font-weight: bold;
+    width: 90%;
+    border-radius: 5px;
+    height: 40px;
+    margin-bottom: 10px;
+  }
+  
+  .form_footer {
+    color: black;
+    font-size: 12px;
+    padding-left: 30px;
+  }
+  
+  #create_page {
+    color: black;
+    font-size: 12px;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  .footer_link {
+    color: rgb(38, 38, 110);
+    font-size: 11px;
+    text-decoration: none;
+    padding: 15px;
+  }
+  
+  .footer {
+    padding-top: 20px;
+    padding-left: 330px;
+    padding-right: 330px;
+  }
+  
+  #copy {
+    color: grey;
+    font-size: 10px;
+    text-decoration: none;
+    padding: 8px;
+    margin-top: -10px;
+  }
+  
